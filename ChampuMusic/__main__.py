@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Champu.start()
     try:
-        await Champu.stream_call("https://telegra.ph/file/58cc6ef6d0a2a720ea6e3.mp4")
+        await Champu.stream_call("https://i.ibb.co/FbPZrXJc/x.jpg")
     except NoActiveGroupCall:
         LOGGER("ChampuMusic").error(
             "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ.\n\nsᴛᴏᴘᴘɪɴɢ ʙᴏᴛ..."
